@@ -1,0 +1,10 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-30 06:44 EDT
+Nmap scan report for 192.168.0.1
+Host is up (0.0035s latency).
+MAC Address: 98:A9:42:B0:AB:A1 (Guangzhou Tozed Kangwei Intelligent Technology)
+Nmap scan report for Chukwu_BC (192.168.0.156)
+Host is up (0.00046s latency).
+MAC Address: D8:F3:BC:90:D3:D1 (Liteon Technology)
+Nmap scan report for kali (192.168.0.192)
+Host is up.
+Nmap done: 256 IP addresses (3 hosts up) scanned in 1.96 seconds

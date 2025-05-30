@@ -1,0 +1,31 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-30 06:37 EDT
+Nmap scan report for 192.168.0.1
+Host is up (0.0055s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE    SERVICE
+53/tcp   filtered domain
+80/tcp   open     http
+443/tcp  open     https
+5555/tcp filtered freeciv
+7777/tcp open     cbt
+MAC Address: 98:A9:42:B0:AB:A1 (Guangzhou Tozed Kangwei Intelligent Technology)
+
+Nmap scan report for Laptop (192.168.0.150)
+Host is up (0.046s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+3306/tcp open  mysql
+MAC Address: 90:09:DF:D5:9D:F0 (Intel Corporate)
+
+Nmap scan report for Chukwu_BC (192.168.0.156)
+Host is up (0.00021s latency).
+All 1000 scanned ports on Chukwu_BC (192.168.0.156) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: D8:F3:BC:90:D3:D1 (Liteon Technology)
+
+Nmap scan report for kali (192.168.0.192)
+Host is up (0.0000070s latency).
+All 1000 scanned ports on kali (192.168.0.192) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 19.53 seconds

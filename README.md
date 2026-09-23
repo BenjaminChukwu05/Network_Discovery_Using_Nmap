@@ -1,5 +1,15 @@
 # 🛠️ PROJECT TITLE: **Internal Network Discovery Using Nmap**
 
+## Review note — September 2026
+
+This May 2025 learning log originally attributed a missed device to changing `192.168.0.1/24` to `192.168.0.0/24`. Both expressions select the same /24 target range in Nmap, so that change does not establish the cause. The later scan found the device, but the original evidence does not isolate why.
+
+Also, `-sn` performs host discovery without a port scan; port observations below must be tied to their separate scan commands and outputs, not attributed to the host-discovery command. The original NAT/bridged account describes this particular lab setup, not a universal restriction of NAT networking. The original observations remain below as learning history, with this correction to their interpretation.
+
+References: [Nmap target specification](https://nmap.org/book/man-target-specification.html) and [host discovery](https://nmap.org/book/man-host-discovery.html).
+
+---
+
 
 ## 🎯 OBJECTIVES
 
